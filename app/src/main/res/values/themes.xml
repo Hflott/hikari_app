@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- A simple AppCompat theme for the Activity window; Compose supplies the in-app styling. -->
+    <style name="Theme.AnimeTv" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Ensure the window itself is dark while Compose is bootstrapping. -->
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+</resources>
